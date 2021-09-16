@@ -9,6 +9,7 @@ A quick and fun multiple choice trivia game!
 - JavaScript
 - jQuery
 - Gooogle Fonts
+- Animate.css
 - Open Trivia Database
 
 ## Screenshots

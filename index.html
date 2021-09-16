@@ -10,9 +10,40 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script defer src="./js/script.js"></script>
-    <title>Document</title>
+    <title>Test Your Knowledge!</title>
   </head>
 
-  <body></body>
+  <body>
+    <div class="container"></div>
+    <header id="title-header">
+      <h1 class="animate__heartBeat">Test Your Knowledge</h1>
+    </header>
+
+    <main>
+      <div class="questionDisplay">
+        <h2 id="current-question"></h2>
+      </div>
+
+      <div class="answerButtons">
+        <button id="btn-1">Answer Option One</button>
+        <button id="btn-2">Answer Option Two</button>
+        <button id="btn-3">Answer Option Three</button>
+        <button id="btn-4" href="/game.html">Answer Option Four</button>
+      </div>
+
+      <div class="alertDisplay">
+        <h3>Can you guess the correct answer?</h3>
+      </div>
+    </main>
+  </body>
 </html>
