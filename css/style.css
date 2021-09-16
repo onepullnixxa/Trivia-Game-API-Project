@@ -12,10 +12,12 @@
     text-align: center;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
+    position:relative;
+    top: 20px;
+    animation-duration: 3s;
   }
 
 .questionDisplay {
-    text-align: center;
     font-family:'Montserrat', sans-serif;
     background-color: #fce3c2;
     border-radius: 100px;
@@ -34,8 +36,14 @@
     background-color: #169873;
     transform: rotate(8deg);
     position: relative;
-    bottom: 375px;
-    left: 325px;
+    top: 75px;
+    right: 200px;
+}
+
+#btn-1:hover {
+    cursor: pointer;
+    animation: pulse;
+    animation-duration: 1.5s;
 }
 
 #btn-2 {
@@ -47,9 +55,15 @@
     background-color: white;
     transform: rotate(-7deg);
     position: relative;
-    bottom: 180px;
-    left: 50px;
+    top: 250px;
+    right: 475px;
 }
+#btn-2:hover{
+    cursor: pointer;
+    animation: pulse;
+    animation-duration: 1.5s;
+}
+
 
 #btn-3 {
     font-family: 'Montserrat', sans-serif;
@@ -60,9 +74,14 @@
     background-color: #c83e4d;
     transform: rotate(-4deg);
     position: relative;
-    bottom: 375px;
-    left: 750px;
+    top: 75px;
+    left: 175px;
+}
 
+#btn-3:hover{
+    cursor: pointer;
+    animation: pulse;
+    animation-duration: 1.5s;
 }
 
 #btn-4 {
@@ -74,19 +93,30 @@
     background-color: #f24c00;
     transform: rotate(9deg);
     position: relative;
-    bottom: 180px;
-    left: 475px;
-    }
+    top: 200px;
+    left: 450px;
+}
+
+#btn-4:hover{
+    cursor: pointer;
+    animation: pulse;
+    animation-duration: 1.5s;
+}
 
 .alertDisplay {
     font-family: 'Montserrat', sans-serif;
     background-color: #ffce8e;
+    font-size: 20px;
     border-radius: 50px;
     width: 450px; height: 150px;
     margin: 50px auto;
     text-align: center;
     position: relative;
-    bottom: 50px;
+    top: 50px;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -99,3 +129,81 @@
 .container > * {
     width: 100%;
 }
+
+/* Mobile View */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        justify-content: center;
+   }
+
+   #title-header{
+    position:relative;
+    top: 5px;
+    font-size: 20px;
+  }
+
+    .questionDisplay {
+        border-radius: 100px;
+        width: 700px; height: 350px;
+        margin: 50px auto;
+        text-align: center;
+        position: relative;
+        bottom: 30px
+    }   
+    #btn-1 {
+        border-width: 25px;
+        width: 500px;
+        transform: rotate(0deg);
+        position: relative;
+        top: 375px;
+        right: 90px;
+        text-align: left;
+        font-size: 15px
+    }
+
+    #btn-2 {
+        border-width: 25px;
+        width: 500px;
+        transform: rotate(0deg);
+        position: relative;
+        top: 387px;
+        right: 90px;
+        text-align: left;
+        font-size: 15px;
+     }
+    
+     #btn-3 {
+        border-width: 25px;
+        width: 500px;
+        transform: rotate(0deg);
+        position: relative;
+        top: 399px;
+        left: -90px;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    #btn-4 {
+        border-width: 25px;
+        width: 500px;
+        transform: rotate(0deg);
+        position: relative;
+        top: 411px;
+        left: -90px;
+        text-align: left;
+        font-size: 15px;
+    }
+
+    .alertDisplay {
+        width: 375px; height: 100px;
+        text-align: center;
+        position: relative;
+        top: 275px;
+        left: 162px;
+        font-size: 15px;
+    }
+
+}
+    
