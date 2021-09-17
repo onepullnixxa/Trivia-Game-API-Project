@@ -14,7 +14,7 @@ A quick and fun multiple choice trivia game!
 
 ## Screenshots
 
-![Design Mockup](https://imgur.com/a/X0ImsM0)
+![Design Mockup](https://imgur.com/a/X0ImsM0.jpg)
 Desc: Design Mock-Up and rough wireframe of the Test Your Knowledge app
 
 ## Getting Started
