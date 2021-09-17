@@ -5,9 +5,7 @@ const $optionD = $('#btn-4');
 const $mainQuestion = $('#current-question');
 const $alertDisplay = $('.alertDisplay');
 
-// Generate a welcome image
-
-// Have a button that you lead you to start game
+// let gameStart;
 
 // Grab and display random question and multiple choice options
 
@@ -22,13 +20,10 @@ $.ajax( {
     url: "https://opentdb.com/api.php?amount=10&category=9&difficulty=medium&type=multiple"
  }).then(
     (data) => {
-      console.log(data.results)  
-    },
+      $mainQuestion.text(data.question);
+    },  
     (error) => {
-        console.log('bad request', error);
-    }
- );
+        console.log('Oops something went wrong', error);
+    });
 
-//  function diffAlerts() {
-//     if ()
-//  }
+//  console.log(gameStart);

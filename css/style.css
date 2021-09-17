@@ -27,12 +27,18 @@
     position: relative;
 }
 
+#current-question {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
 #btn-1 {
     font-family: 'Montserrat', sans-serif;
     border-color: #169873;
     border-style: solid;
     border-width: 25px;
-    width: 275px;
+    width: 280px;
     background-color: #169873;
     transform: rotate(8deg);
     position: relative;
@@ -51,7 +57,7 @@
     border-color: white;
     border-style: solid;
     border-width: 25px;
-    width: 275px;
+    width: 280px;
     background-color: white;
     transform: rotate(-7deg);
     position: relative;
@@ -70,7 +76,7 @@
     border-color: #c83e4d;
     border-style: solid;
     border-width: 25px;
-    width: 275px;
+    width: 280px;
     background-color: #c83e4d;
     transform: rotate(-4deg);
     position: relative;
@@ -89,7 +95,7 @@
     border-color: #f24c00;
     border-style: solid;
     border-width: 25px;
-    width: 275px;
+    width: 280px;
     background-color: #f24c00;
     transform: rotate(9deg);
     position: relative;
@@ -113,6 +119,12 @@
     text-align: center;
     position: relative;
     top: 50px;
+}
+
+#alert-text {
+    position: absolute;
+    top: 35%;
+    width: 100%;
 }
 
 footer {
@@ -150,48 +162,48 @@ footer {
         margin: 50px auto;
         text-align: center;
         position: relative;
-        bottom: 30px
+        bottom: 30px;
     }   
     #btn-1 {
         border-width: 25px;
-        width: 500px;
+        width: 450px;
         transform: rotate(0deg);
         position: relative;
         top: 375px;
-        right: 90px;
+        right: 115px;
         text-align: left;
-        font-size: 15px
+        font-size: 15px;
     }
 
     #btn-2 {
         border-width: 25px;
-        width: 500px;
+        width: 450px;
         transform: rotate(0deg);
         position: relative;
         top: 387px;
-        right: 90px;
+        right: 115px;
         text-align: left;
         font-size: 15px;
      }
     
      #btn-3 {
         border-width: 25px;
-        width: 500px;
+        width: 450px;
         transform: rotate(0deg);
         position: relative;
         top: 399px;
-        left: -90px;
+        left: -115px;
         text-align: left;
         font-size: 15px;
     }
 
     #btn-4 {
         border-width: 25px;
-        width: 500px;
+        width: 450px;
         transform: rotate(0deg);
         position: relative;
         top: 411px;
-        left: -90px;
+        left: -115px;
         text-align: left;
         font-size: 15px;
     }
@@ -200,7 +212,7 @@ footer {
         width: 375px; height: 100px;
         text-align: center;
         position: relative;
-        top: 275px;
+        top: 285px;
         left: 162px;
         font-size: 15px;
     }
