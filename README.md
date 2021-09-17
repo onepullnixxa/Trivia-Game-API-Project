@@ -18,7 +18,7 @@ A quick and fun multiple choice trivia game!
 Desc: Design Mock-Up and rough wireframe of the Test Your Knowledge app
 
 ## Getting Started
-[Click here](https://www.insertpagelater.com) to deploy the application.
+[Click here](https://nifty-fermat-94bc6d.netlify.app) to deploy the application.
 
 ## Future Enhancements
 
