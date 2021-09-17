@@ -14,8 +14,8 @@ A quick and fun multiple choice trivia game!
 
 ## Screenshots
 
-![Design Mockup](https://imgur.com/a/X0ImsM0.jpg)
-Desc: Design Mock-Up and rough wireframe of the Test Your Knowledge app
+![Design Mockup](https://i.imgur.com/EOPMEO4.jpg)
+Description: Design Mock-Up and rough wireframe of the Test Your Knowledge app
 
 ## Getting Started
 [Click here](https://nifty-fermat-94bc6d.netlify.app) to deploy the application.
