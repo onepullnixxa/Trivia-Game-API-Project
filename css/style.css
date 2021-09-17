@@ -19,6 +19,7 @@
 
 .questionDisplay {
     font-family:'Montserrat', sans-serif;
+    font-size: 12px;
     background-color: #fce3c2;
     border-radius: 100px;
     width: 900px; height: 400px;
@@ -35,6 +36,7 @@
 
 #btn-1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
     border-color: #169873;
     border-style: solid;
     border-width: 25px;
@@ -54,6 +56,7 @@
 
 #btn-2 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
     border-color: white;
     border-style: solid;
     border-width: 25px;
@@ -73,6 +76,7 @@
 
 #btn-3 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
     border-color: #c83e4d;
     border-style: solid;
     border-width: 25px;
@@ -92,6 +96,7 @@
 
 #btn-4 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
     border-color: #f24c00;
     border-style: solid;
     border-width: 25px;
@@ -127,10 +132,6 @@
     width: 100%;
 }
 
-footer {
-    font-family: 'Montserrat', sans-serif;
-}
-
 .container {
     display: flex;
     justify-content: center;
@@ -164,6 +165,7 @@ footer {
         position: relative;
         bottom: 30px;
     }   
+    
     #btn-1 {
         border-width: 25px;
         width: 450px;
