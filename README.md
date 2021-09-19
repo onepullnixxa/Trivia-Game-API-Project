@@ -22,4 +22,6 @@ Description: Design Mock-Up and rough wireframe of the Test Your Knowledge app
 
 ## Future Enhancements
 
-- The ability to reset the page after each incorrect answer
+- The ability to reset the page after each incorrect answer.
+- Randomize the placement of the correct and incorrect choices.
+- Properly adjust the alignment of theS main question display.
