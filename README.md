@@ -24,4 +24,4 @@ Description: Design Mock-Up and rough wireframe of the Test Your Knowledge app
 
 - The ability to reset the page after each incorrect answer.
 - Randomize the placement of the correct and incorrect choices.
-- Properly adjust the alignment of theS main question display.
+- Properly adjust the alignment of the main question display.

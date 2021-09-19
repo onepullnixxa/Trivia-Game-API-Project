@@ -27,7 +27,7 @@ const questions = $.ajax({
 };
 
 function clickEvent(evt) {
-      if (evt == correctAnswer) {
+      if (evt === correctAnswer) {
     return $alertDisplay.text("Try again");
   } else {
     return $alertDisplay.text("That's correct!");
