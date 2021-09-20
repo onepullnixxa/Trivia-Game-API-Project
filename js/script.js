@@ -31,7 +31,8 @@ function clickEvent(evt) {
     return $alertDisplay.text("Try again");
   } else {
     return $alertDisplay.text("That's correct!");
-  }
-}
+  };
+};
 
 $choices.on('click', clickEvent)
+
